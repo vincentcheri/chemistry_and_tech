@@ -12,7 +12,14 @@ int main()
 
     unsigned int n;
     printf("Enter any number between 1-10: ");
-    scanf("%2d", &n);
+
+    if (scanf("%2d", &n) != 1)
+    {
+	    printf("Invalid input! Character not allowed");
+	    printf("\n");
+	    return (1);
+    }
+
     if (n > 10 || n < 0)
     {
 	    printf("oops number you entered is greater than 10 or less than 0");
