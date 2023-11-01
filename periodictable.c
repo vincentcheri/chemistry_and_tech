@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
 
 /**
  * main - prints an element with its symbol and atomic mass when a number from 1 to 10 is entered
