@@ -10,9 +10,16 @@
 int main()
 {
 
-    int n;
+    unsigned int n;
     printf("Enter any number between 1-10: ");
     scanf("%2d", &n);
+    if (n > 10 || n < 0)
+    {
+	    printf("oops number you entered is greater than 10 or less than 0");
+	    printf("\n");
+	    return (1);
+    }
+
     char element[11][15] = {
         {"Periodic Table"},
         {"Hydrogen"},
@@ -44,6 +51,6 @@ int main()
     int atomic_no[12] = {0,1,2,3,4,5,6,7,8,9,10,11};
 
     printf("%s-Symbol-> '%s': atomic number --> %d\n\n", element[n],sbl[n],atomic_no[n]);
-
+    printf("\n");
     return 0;
 }
