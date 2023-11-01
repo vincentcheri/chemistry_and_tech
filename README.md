@@ -1,5 +1,5 @@
 # chemistry_and_tech
-in this repo i try to apply my programming skills in chemistry. Just to see improve my problem solving skills.
+in this repo i try to apply my programming skills in chemistry. Just to improve my problem solving skills.
 
 periodictable.c can be compiled to anyfile name of your choice or the normal a.out executable file.
 
