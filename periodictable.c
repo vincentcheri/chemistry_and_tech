@@ -11,7 +11,7 @@ int main()
 {
 
     unsigned int n;
-    printf("Enter any number between 1-10: ");
+    printf("Enter any number between 1-11: ");
 
     if (scanf("%2d", &n) != 1)
     {
@@ -20,14 +20,14 @@ int main()
 	    return (1);
     }
 
-    if (n > 10 || n < 0)
+    if (n > 11 || n < 0)
     {
-	    printf("oops number you entered is greater than 10 or less than 0");
+	    printf("oops number you entered is greater than 11 or less than 0");
 	    printf("\n");
 	    return (1);
     }
 
-    char element[11][15] = {
+    char element[12][15] = {
         {"Periodic Table"},
         {"Hydrogen"},
         {"Helium"},
@@ -38,10 +38,11 @@ int main()
         {"Nitrogen"},
         {"Oxygen"},
         {"Flourine"},
-        {"Neon"}
+        {"Neon"},
+	{"Sodium"}
         };
 
-        char sbl[12][11] = {
+        char sbl[13][11] = {
         {"learn PT"},
         {"H"},
         {"He"},
@@ -52,7 +53,8 @@ int main()
         {"N"},
         {"O"},
         {"F"},
-        {"Ne"}
+        {"Ne"},
+	{"Na"}
         };
 
     int atomic_no[12] = {0,1,2,3,4,5,6,7,8,9,10,11};
