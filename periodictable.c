@@ -60,6 +60,5 @@ int main()
     int atomic_no[12] = {0,1,2,3,4,5,6,7,8,9,10,11};
 
     printf("%s-Symbol-> '%s': atomic number --> %d\n\n", element[n],sbl[n],atomic_no[n]);
-    printf("\n");
     return 0;
 }
